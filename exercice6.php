@@ -9,8 +9,8 @@ function glue($array) {
 }
 $langage = array("HTML","CSS","Javascript","PHP");
 $result = order($langage);
-foreach($result as $val) {
-  echo $val;
+foreach($result as $var) {
+  echo $var;
 }
 echo '<br />';
 $collerserrer = glue($langage);
