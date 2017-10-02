@@ -1,18 +1,18 @@
 <?php
-function order($array) {
+function ordre($array) {
   sort($array);
   return $array;
 }
-function uhu($array) {
+function glue($array) {
   $lignes = implode(', ', $array);
   return $lignes;
 }
 $langage = array("HTML","CSS","Javascript","PHP");
-$result = order($langage);
+$result = ordre($langage);
 foreach($result as $var) {
   echo $var;
 }
 echo '<br />';
-$collerserrer = uhu($langage);
-echo $collerserrer;
+$fusion = glue($langage);
+echo $fusion;
 ?>
