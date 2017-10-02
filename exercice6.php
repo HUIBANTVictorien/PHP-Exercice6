@@ -2,7 +2,7 @@
 $langage = array("HTML","CSS","Javascript","PHP");
 $result = order($langage);
 foreach($result as $var) {
-  echo $var;
+  echo $var .' ';
 }
 function order($langage) {
   sort($langage);
