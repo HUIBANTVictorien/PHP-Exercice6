@@ -12,7 +12,7 @@ $result = ordre($langage);
 foreach($result as $var) {
   echo $var;
 }
-echo '<br />';
+echo "\n" ;
 $fusion = glue($langage);
 echo $fusion;
 ?>
