@@ -3,7 +3,7 @@ function order($array) {
   sort($array);
   return $array;
 }
-function glue($array) {
+function uhu($array) {
   $lignes = implode(', ', $array);
   return $lignes;
 }
@@ -13,6 +13,6 @@ foreach($result as $var) {
   echo $var;
 }
 echo '<br />';
-$collerserrer = glue($langage);
+$collerserrer = uhu($langage);
 echo $collerserrer;
 ?>
