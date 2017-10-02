@@ -4,12 +4,12 @@ $result = order($langage);
 foreach($result as $var) {
   echo $var;
 }
-function order($array) {
-  sort($array);
-  return $array;
+function order($langage) {
+  sort($langage);
+  return $langage;
 }
-function glue($array) {
-  $lines = implode(', ', $array);
+function glue($langage) {
+  $lines = implode(', ', $langage);
   return $lines;
 }
 echo '<br />';
