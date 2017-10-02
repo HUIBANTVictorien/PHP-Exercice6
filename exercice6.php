@@ -1,14 +1,14 @@
 <?php
-function ordre($array) {
+function order($array) {
   sort($array);
   return $array;
 }
 function glue($array) {
-  $lignes = implode(', ', $array);
-  return $lignes;
+  $lines = implode(', ', $array);
+  return $lines;
 }
 $langage = array("HTML","CSS","Javascript","PHP");
-$result = ordre($langage);
+$result = order($langage);
 foreach($result as $var) {
   echo $var;
 }
