@@ -9,7 +9,7 @@ function order($langage) {
   return $langage;
 }
 function glue($langage) {
-  $lines = implode($langage);
+  $lines = implode(', ', $langage);
   return $lines;
 }
 echo '<br />';
